@@ -1,0 +1,17 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/md1 during installation
+UUID=f73466f5-ce05-46d0-8d1f-5f9c708fd997 /               ext4    errors=remount-ro 0       1
+# Set the research disk
+UUID=F0461A0A4619D268    /media/changliu/Research        ntfs    defaults        0       2 
+UUID=6872287C722850DC    /media/changliu/New        	 ntfs    defaults        0       2 
+UUID=ECD4901FD48FE9E2 	 /media/changliu/Windows8_OS     ntfs    defaults        0       2 
+
+# /boot was on /dev/md0 during installation
+#/dev/mapper/DATAVG-data1 /data1          ext4    defaults        0       2
+#/dev/mapper/DATAVG-data2 /data2          ext4    defaults        0       2
