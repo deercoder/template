@@ -1,0 +1,3 @@
+alias ssh-t='ssh cliu@129.63.32.124'
+alias sshthor='ssh ycao@thor.cs.uml.edu'
+alias gitpush='git push origin master'
