@@ -1,3 +1,10 @@
+" This configuration is from https://github.com/hotoo/vimrc, @44f50ce
+"  Works fine at that point, but others are wrong, especially some
+"  of its Chinese showing, so I modify the vimrc to make it work well
+" ### Remain as it is and now works as it is!
+"
+"
+"
 "                     {/ ． ．\}
 "                     ( (oo)   )
 " +-------------oOOo---︶︶︶︶---oOOo-------------+
